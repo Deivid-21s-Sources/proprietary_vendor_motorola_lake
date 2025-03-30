@@ -6,9 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/lake
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/lake/proprietary/system/etc/permissions/com.motorola.camera2.denali.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.camera2.denali.xml \
-    vendor/motorola/lake/proprietary/system/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.motosignature.xml \
-    vendor/motorola/lake/proprietary/system/etc/permissions/privapp-permissions-com.motorola.camera2.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.motorola.camera2.xml \
     vendor/motorola/lake/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/motorola/lake/proprietary/vendor/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/General_cal.acdb \
     vendor/motorola/lake/proprietary/vendor/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Global_cal.acdb \
@@ -495,10 +492,7 @@ PRODUCT_PACKAGES += \
     libsecureui_svcsock \
     libssd \
     vendor.qti.hardware.tui_comm@1.0 \
-    MotoSignatureApp \
-    MotCamera2 \
     ims \
-    com.motorola.motosignature \
     charge_only_mode \
     android.hardware.biometrics.fingerprint@2.1-service-ets \
     android.hardware.gatekeeper@1.0-service-qti \
